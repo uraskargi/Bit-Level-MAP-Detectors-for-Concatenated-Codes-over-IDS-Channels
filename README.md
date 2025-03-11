@@ -16,11 +16,11 @@ pip install numpy scipy
 
 ## Usage
 
-python baseline_decoder_simulation.py --main-dir ./Results --test_points_Pd [0.1] --test_points_Ps [sys.float_info.min] --test_points_Pi [sys.float_info.min] --fer_errors 1 --marker_sequence [0,1,0] --Nc 10 --iter_num 100 --matrix small --print_every 10 --CSI unk --seed 1000
+python main.py --main-dir ./Results --test_points_Pd [0.1] --test_points_Ps [sys.float_info.min] --test_points_Pi [sys.float_info.min] --fer_errors 1 --marker_sequence [0,1,0] --Nc 10 --iter_num 100 --matrix small --print_every 10 --CSI unk --seed 1000
 
 ## Example Usage
 
-python baseline_decoder_simulation.py --main-dir ./Results --test_points_Pd [0.05] --test_points_Ps [sys.float_info.min] --test_points_Pi [sys.float_info.min] --fer_errors 2 --marker_sequence [1, 0, 1] --Nc 20 --iter_num 200 --matrix medium --print_every 5 --CSI unk --seed 42
+python main.py --main-dir ./Results --test_points_Pd [0.05] --test_points_Ps [sys.float_info.min] --test_points_Pi [sys.float_info.min] --fer_errors 2 --marker_sequence [1, 0, 1] --Nc 20 --iter_num 200 --matrix medium --print_every 5 --CSI unk --seed 42
 
 ## Output
 
