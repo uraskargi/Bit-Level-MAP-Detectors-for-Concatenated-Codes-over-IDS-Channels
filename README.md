@@ -1,6 +1,6 @@
 # Baseline LDPC Decoder Simulation
 
-This repository contains a Python script to simulate the baseline LDPC (Low-Density Parity-Check) decoder with a BCJR-based estimator for concatenated codes over IDS channels. The script evaluates the performance of the decoder for various deletion, insertion, and substitution probability test points and records the results for further analysis.
+This repository contains a Python script to simulate the performance of bit-level concatenated codes over IDS channels with a BCJR-based estimator. The script evaluates the performance of the decoder for various deletion, insertion, and substitution probability test points and records the results for further analysis.
 
 ## Requirements
 
